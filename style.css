@@ -1,0 +1,55 @@
+*{
+    background-color: #211e24;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    
+    
+    margin: auto;
+    text-align: center;
+}
+h1{
+    color: #BC6FF1;
+    font-size: 4rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+p{
+    color: #892CDC;
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+}
+div{
+    display: inline-block;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    cursor: pointer;
+    width: 70px;
+    height: 40px;
+    color: #e1d4e2;
+    font-family: 'Rubik Bubbles', cursive;
+    font-size: 20px;
+    border-radius: 20%;
+}
+button:hover{
+    color: black;
+    background-color: #e1d4e2;
+    transition: 0.7s;
+
+}
+@media (max-width:501px) {
+     body{
+         width: 100%;
+         }
+    img{
+        width: 50%;
+    }
+}
+
+
